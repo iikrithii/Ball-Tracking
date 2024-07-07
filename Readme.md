@@ -19,4 +19,7 @@ Overlay text “Entry or Exit” & time stamp at the time of entry/exit of a num
 Text File:
 Text file with records in the format provided above (Time, Quadrant Number, Ball Colour, Event Type (Entry or Exit))
 
-Two approaches were followed: One with Contour Detection, and second using a pretrained yolov8 model. A simple web application was also created for enhanced user interface
+Two approaches were followed: One with [Contour Detection](https://github.com/iikrithii/Ball-Tracking/blob/main/Approach_1_Contours/readme.md), and second using a pretrained [YOLOv8 model](https://github.com/iikrithii/Ball-Tracking/blob/main/Approach_2_YOLO/readme.md). A simple [Web application](https://github.com/iikrithii/Ball-Tracking/blob/main/web-app/readme.md) was also created for enhanced user interface
+
+The final output video is [available here](https://drive.google.com/file/d/1cYOevexaT0l6v3qxd93p4aKkKvX9UCu-/view?usp=sharing).
+The output event log file can be accessed [here](https://github.com/iikrithii/Ball-Tracking/blob/main/Approach_2_YOLO/info.txt).
