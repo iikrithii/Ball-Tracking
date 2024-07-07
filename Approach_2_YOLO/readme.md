@@ -12,6 +12,7 @@ ONNX Runtime
 
 ### Clone the Repository:
 git clone [<repository_url>](https://github.com/iikrithii/Ball-Tracking.git)
+
 cd Approach_2_YOLO
 
 ### Install Dependencies:
@@ -23,6 +24,7 @@ Replace <input_video_path> with the path to your input video file.
 
 The script will produce two output files in the same directory:
 >input_video_output.avi: Processed video with detected balls and annotations.
+>
 >input_video_info.txt: Log file with entry and exit events of the balls.
 
 ## Script Description
