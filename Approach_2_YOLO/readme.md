@@ -2,6 +2,9 @@
 ## Overview
 This approach is designed to better track the movements across quadrants, and log their entry and exit events. The application uses OpenCV for video processing and object detection, leveraging a pre-trained ONNX model that uses YOLOv8 for object detection. 
 
+The final output video is [available here](https://drive.google.com/file/d/1cYOevexaT0l6v3qxd93p4aKkKvX9UCu-/view?usp=sharing)
+The output event log file can he accessed [here](https://github.com/iikrithii/Ball-Tracking/blob/main/Approach_2_YOLO/info.txt)
+
 ## Requirements
 Python 3.x
 OpenCV
@@ -11,7 +14,7 @@ ONNX Runtime
 ## Installation
 
 ### Clone the Repository:
-git clone [<repository_url>](https://github.com/iikrithii/Ball-Tracking.git)
+git clone [https://github.com/iikrithii/Ball-Tracking.git](https://github.com/iikrithii/Ball-Tracking.git)
 
 cd Approach_2_YOLO
 
