@@ -1,8 +1,9 @@
 
+## Approach 1
 
 This document outlines the video processing approach implemented in the application for detecting colored balls, tracking their movements across predefined quadrants, and logging entry and exit events. The application uses OpenCV for computer vision tasks and Flask for web interface integration.
 
-Overview
+## Overview
 The video processing approach involves several key steps:
 
 Video Input: The application accepts a video file (*.mp4 format) uploaded by the user through a web interface.
@@ -17,18 +18,11 @@ Event Logging: Entry and exit events of balls in each quadrant are logged based 
 
 Output Generation: The processed video with annotated balls and event timestamps, along with an event log file (event_log.txt), are generated as output.
 
-Functions
-rotate_frame(frame)
-Description: Rotates a given frame by 180 degrees.
-Usage: Ensures consistent orientation of video frames for processing.
-detect_balls(frame)
-Description: Detects colored balls (green, white, orange, yellow) within a given frame using HSV color space.
-Usage: Applies color thresholding and contour detection to identify balls.
-process_video(video_path)
-Description: Processes the entire video file by iterating through its frames, applying ball detection and quadrant tracking, and logging events.
-Usage: Integrates rotate_frame() and detect_balls() functions to process each frame sequentially.
-upload() and result()
-Description: Handles file upload and result rendering through Flask routes (/upload, /result).
-Usage: Manages user interaction, file handling, and output display using HTML templates (index.html, result.html).
-Limitations
-While effective for basic applications, this video processing approach has limitations:
+## Functions
+rotate_frame(frame): Rotates a given frame by 180 degrees.
+detect_balls(frame): Detects colored balls (green, white, orange, yellow) within a given frame using HSV color space.
+process_video(video_path): Processes the entire video file by iterating through its frames, applying ball detection and quadrant tracking, and logging events.
+
+## Limitations
+
+This is a basic rudimentary apprach to detection and tracking of balls. Due to the backgorund being white, this apprach often incorrectly classifies the backgrouns as white coloured balls which tampers with the event record. In addition, specifying colour ranges also lead to confusion where skin was detected as orange. 
