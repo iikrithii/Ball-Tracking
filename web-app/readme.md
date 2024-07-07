@@ -6,7 +6,9 @@ This web application allows users to upload a video file, detect colored balls w
 ## Directory Structure
 
 >web-app/
+>
 >│
+>
 >├── templates/
 >
 >│   ├── index.html        # HTML template for uploading a video
@@ -23,8 +25,11 @@ This web application allows users to upload a video file, detect colored balls w
 
 ## Description
 app.py: Flask application script handling HTTP requests, video upload, and result rendering.
+
 video_processing.py: Script containing video processing logic using OpenCV for ball detection, quadrant tracking, and event logging.
+
 output_video.avi: Processed video file generated after uploading and processing a video.
+
 event_log.txt: Text file logging event timestamps, quadrants, colors, and event types during video processing.
 
 ## Requirements
