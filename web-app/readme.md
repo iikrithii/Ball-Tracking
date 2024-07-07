@@ -14,7 +14,9 @@ This web application allows users to upload a video file, detect colored balls w
 >│   ├── index.html        # HTML template for uploading a video
 >
 >│   └── result.html       # HTML template for displaying processing results
+>
 >│
+>
 >├── app.py                # Flask application script
 >
 >├── video_processing.py   # Script containing video processing logic
