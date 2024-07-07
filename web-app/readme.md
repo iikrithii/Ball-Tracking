@@ -43,31 +43,40 @@ OpenCV (pip install opencv-python)
 ## How to Run
 
 **Install Dependencies**:
+
 pip install flask opencv-python
 
 **Clone the Repository**:
+
 git clone [https://github.com/iikrithii/Ball-Tracking.git](https://github.com/iikrithii/Ball-Tracking.git)
 cd web-app
 
 **Run the Flask Application**:
+
 python app.py
 
 **Access the Application**:
+
 Open a web browser and go to http://localhost:5000. This will display the upload form (index.html).
 
 **Upload a Video**:
+
 Click on the "Choose File" button and select a video file (*.mp4 format).
 Click on the "Upload" button to start processing the video.
 
 **View Processing Results**:
+
 Once the video processing is complete, you will be redirected to the result page (result.html).
+
 The processed video with annotations and event log will be displayed.
 You can download the event log by clicking on the provided link.
 
 **Terminate the Application**:
+
 Press Ctrl + C in the terminal where Flask is running to stop the application.
 
 The current application uses a preliminary version of the video-processing, this can be upgraded later with improvements to the model
 
 >Notes
+>
 >Ensure the video file uploaded is in *.mp4 format for compatibility with OpenCV.
