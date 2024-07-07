@@ -46,18 +46,29 @@ main(input_video_path): Main function to handle video processing.
 
 ## Approach
 Video Capture: The script captures video frames from the specified input video file.
+
 Initial Frame Saving: The initial frame is saved and divided into quadrants for comparison.
+
 Frame Processing: Each frame is processed to detect balls using the ONNX model.
+
 Ball State Update: The state of balls in each quadrant is updated based on frame differences.
+
 Annotation: Detected balls are annotated on the video with their color and quadrant information.
+
 Logging: Entry and exit events of balls are logged to a text file.
+
 Output: The processed video and log file are saved to the disk.
 
 ## Advantages
+
 Real-time Processing: Efficiently processes video frames in real-time.
+
 Detailed Logging: Provides detailed logs of ball movements and events.
+
 Customizable: Easily customizable to detect different colors or objects.
+
 Background and Motion Tracking: Using a Pre-trained Yolov8 helps in accurately identifying balls
 
 ## Future Improvements
+
 The tracking and detecting still seems to be faulty in a few places and needs further state detection improvement, and motion detection parameters to enhance its accuracy. 
