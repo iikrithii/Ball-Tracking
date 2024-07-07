@@ -1,18 +1,24 @@
 
-#**Video Processing Web Application**
+# **Video Processing Web Application**
 
 This web application allows users to upload a video file, detect colored balls within the video, track their movements across predefined quadrants, and log their entry and exit events. It utilizes OpenCV for video processing and Flask for the web interface.
 
 ## Directory Structure
+
 >web-app/
 >│
 >├── templates/
+>
 >│   ├── index.html        # HTML template for uploading a video
+>
 >│   └── result.html       # HTML template for displaying processing results
 >│
 >├── app.py                # Flask application script
+>
 >├── video_processing.py   # Script containing video processing logic
+>
 >├── output_video.avi      # Processed output video file
+>
 >└── event_log.txt         # Event log file containing timestamps and events
 
 ## Description
@@ -33,7 +39,7 @@ OpenCV (pip install opencv-python)
 pip install flask opencv-python
 
 **Clone the Repository**:
-git clone [<repository-url>](https://github.com/iikrithii/Ball-Tracking.git)
+git clone [https://github.com/iikrithii/Ball-Tracking.git](https://github.com/iikrithii/Ball-Tracking.git)
 cd web-app
 
 **Run the Flask Application**:
